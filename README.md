@@ -6,7 +6,7 @@ Rodar o projeto React
 ### npm start
 
 
----Docker---
+###Docker###
 criar uma image
 ### docker build .
 pra ver a ultima imagem criada
