@@ -5,6 +5,8 @@ Instalar todas as dependencias indicada pelo package.json
 Rodar o projeto React 
 ### npm start
 
+
+---Docker---
 criar uma image
 ### docker build .
 pra ver a ultima imagem criada
