@@ -1,0 +1,135 @@
+/*===Modal-cadastro======================================================================================================================*/
+.modal-content-cadastro{
+    display: flex;
+    background-color: #EBEFF2;
+    color: black;
+    padding: 20px 30px;
+}
+.modal-content-cadastro form{
+    display: flex;
+    width: 100%;
+    padding: 10px
+}
+.modal-content-cadastro p{
+    font-weight: 400;
+    font-size: 24px;
+    color: #1D2527;
+}
+.modal-content-cadastro label{
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.modal-content-cadastro input{
+    border: 1px solid #AFAFAF;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: transparent;
+}
+.modal-content-cadastro .ImgBox{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.modal-content-cadastro .ImgBox button{
+    width: 150px;
+    margin-top: 10px;
+    border: none;
+    background: transparent;
+    color: #1D2527;
+}
+.modal-content-cadastro .formBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.modal-content-cadastro .formBox > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #1D2527;
+    background: transparent;
+    border-radius: 50%;
+    color: #1D2527;
+    font-size: 10px;
+    align-self: flex-end;
+}
+.modal-content-cadastro form > button{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #1D2527;
+    background: transparent;
+    border-radius: 50%;
+    color: #1D2527;
+    font-size: 10px;
+    align-self: flex-end;
+}
+.modal-content-cadastro .butSalvarCancelar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content-cadastro .butSalvarCancelar button:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 45%;
+    height: 48px;
+    background: transparent;
+    border-radius: 21px;
+    color: #1D2527;
+}
+.modal-content-cadastro .butSalvarCancelar button:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 45%;
+    height: 48px;
+    background: #1D2527;
+    border-radius: 21px;
+    color: #EBEFF2;
+}
+@media(max-width: 991px){
+    .modal-content-cadastro form{
+        flex-direction: column;
+    }
+    .modal-content-cadastro .ImgBox{
+        width: 120px;
+    }
+    .modal-content-cadastro form > button{
+        display: flex;
+    }
+    .modal-content-cadastro .formBox > button{
+        display: none;
+    }
+    .modal-content-cadastro p{
+        font-weight: 400;
+        font-size: 24px;
+        color: #1D2527;
+        width: 180px;
+    }
+    .modal-content-cadastro .ImgBox button{
+        width: 150px;
+        margin-top: 10px;
+        border: none;
+        background: transparent;
+        color: #1D2527;
+        margin-bottom: 10px;
+    }
+    #Adicionar{
+        width: 60%;
+    }
+    #Adicionar2{
+        width: 40%;
+    }
+}

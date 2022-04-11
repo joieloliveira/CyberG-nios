@@ -1,0 +1,72 @@
+body a{
+    text-decoration: none;
+}
+/*===home=======================================================*/
+.homeBG{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 698px;
+    background: url(../../img/img/luca-david-HjXbVnnITvE-unsplash1.png) center center;
+    background-size: 100% 698px;
+    background-repeat: no-repeat;
+}
+.homeBG .headerBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1366px;
+    padding: 20px 10px;
+}
+.homeBG .headerBar a{
+    color: #FFFFFF;
+    padding: 10px 10px;
+}
+.homeBG .headerBar a:hover{
+    border-bottom: 2px solid #FFFFFF;
+    margin-bottom: -2px;
+}
+.homeBG .headerBar img{
+    margin-left: 35px;
+}
+@media(max-width: 1024px){
+    .homeBG{
+        width: 100%;
+        height: 698px;
+        background-size: 1024px 698px;
+    }
+}
+@media(max-width: 768px){
+    .homeBG{
+        width: 100%;
+        height: 443px;
+        margin-top: -20px;
+        background: url(../../img/img/luca-david-HjXbVnnITvE-unsplash1.png) center center;
+        background-size: 898px 443px;
+        background-repeat: no-repeat;
+    }
+    .homeBG .headerBar{
+        display: none;
+    }
+}
+@media(max-width: 520px){
+    .homeBG{
+        width: 100%;
+        height: 343px;
+        margin-top: -20px;
+        background-size: 520px 343px;
+        background-repeat: no-repeat;
+    }
+}
+@media(max-width: 425px){
+    .homeBG{
+        width: 100%;
+        height: 343px;
+        margin-top: -20px;
+        background: url(../../img/img/luca-david-HjXbVnnITvE-unsplash2.png) center center;
+        background-size: 445px 343px;
+        background-repeat: no-repeat;
+    }
+}
+/*==============================================================*/

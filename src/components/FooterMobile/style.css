@@ -1,0 +1,59 @@
+/*===footer=======================================================*/
+.footerBG2{
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  height: 568px;
+  background: url(../../img/img/jon-flobrant-lRSChvh1Mhs-unsplash2.png) center center;
+  background-size: 100% 543px;
+  background-repeat: no-repeat;
+}
+.footerBG2 .footerBox1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 218;
+}
+.footerBG2 .footerBox2{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  width: 100%;
+  height: 350px;
+  background: linear-gradient(270deg, rgba(29, 37, 39, 0.6) 0%, rgba(29, 37, 39, 0.6) 24.79%, rgba(29, 37, 39, 0.534) 54.48%, rgba(29, 37, 39, 0.006) 78.67%, rgba(29, 37, 39, 0) 100%);
+  backdrop-filter: blur(3px);
+}
+.footerBG2 .footerBox2 p:nth-child(1){
+  font-size: 32px;
+  text-align: right;
+  color: #FFFFFF;
+}
+.footerBG2 .footerBox2 p:nth-child(2){
+  font-weight: 300;
+  font-size: 16px;
+  text-align: right;
+  color: #FFFFFF;
+}
+.footerBG2 .footerBox2 button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 56px;
+  border: 1px solid #EBEFF2;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #EBEFF2;
+}
+@media(max-width: 670px){
+  .footerBG2{
+    display: flex;
+  }
+  .footerBG{
+    display: none;
+  }
+}
