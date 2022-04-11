@@ -1,0 +1,73 @@
+#FooterMobile{
+    display: none;
+}
+.carrossel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background--);
+    width: 100%;
+    padding-bottom: 80px;
+}
+.carrossel #owlCarousel{
+    width:  1200px;
+}
+.carrossel #owlCarousel .cardCarro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 30px 40px;
+    border-radius: 1.5rem;
+    width: 270px;
+    margin-top: 180px;
+    margin-left: 20px;
+}
+.carrossel #owlCarousel .cardCarro > button{
+    border: 1px solid black;
+    border-radius: 1.2rem;
+    background-color: transparent;
+    padding: 10px 60px;
+    margin-top: 20px;
+}
+.carrossel #owlCarousel .cardCarro > p{
+    font-size: 24px;
+    color: #1D2527;
+    margin-top: -30px;
+}
+.carrossel #owlCarousel .cardCarro > img{
+    width: 228px;
+    height: 171px;
+    margin-top: -145px;
+}
+.carrossel #owlCarousel .cardCarro .p_img{
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+}
+.carrossel #owlCarousel .cardCarro .p_img img{
+    Width: 19.2px;
+    Height: 16.84px;
+}
+.carrossel #owlCarousel .cardCarro .p_img p{
+    margin: 0;
+    margin-top: -3px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+@media(max-width: 1190px){
+    .carrossel #owlCarousel{
+        width:  100%;
+    }
+}
+@media(max-width: 860px){
+    .carrossel #owlCarousel{
+        width:  600px;
+    }
+}
+@media(max-width: 601px){
+    .carrossel #owlCarousel{
+        width:  300px;
+    }
+}
+/*==============================================================*/

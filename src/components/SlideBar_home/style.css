@@ -1,0 +1,24 @@
+#navbar{
+    display: none;
+}
+/*===sideBar-PGhome===corpo do side bar PGhome*/
+.sideBarBody{
+    display: flex;
+    flex-direction: column;
+}
+.sideBarBody > img{
+    width: 50px;
+    margin: 20px 10px;
+}
+.sideBarBody a{
+    margin: 20px 10px;
+    color: #1D2527;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+@media(max-width: 768px){
+    #navbar{
+        display: flex;
+    }
+}
